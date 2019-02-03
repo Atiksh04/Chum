@@ -1,0 +1,17 @@
+new group
+access group 	chum group name	
+create new	    chum group new
+add new people 	chum group add pname 
+
+add spenditure
+choose group	chum group name
+check people index chum group index
+spend amount	chum peoplename amount at venue with index
+divide amount 	chum divide amount by [pname] // for all member nothing 
+to specific member chumdivide amount by [pname] with index
+check balance	chum personname balance
+
+
+reminder
+				chum remind at {time} to {message}
+				time {23 09}

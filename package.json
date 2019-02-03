@@ -1,0 +1,24 @@
+{
+  "name": "chum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.0",
+    "nodemon": "^1.18.9",
+    "superagent": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Atiksh Srivastava",
+  "license": "ISC"
+}
