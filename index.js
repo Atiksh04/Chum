@@ -9,7 +9,7 @@ mongoose.Promise=global.Promise;
 mongoose.connect("mongodb://localhost/bot",{useNewUrlParser:true});
 
 
-const botToken="xoxb-386040265172-386408602661-m9c2LTuqRarNBKQVNH4IoSuj";
+const botToken="xoxb-386040265172-386408602661-jZIlhKnU8W3C04Y7Fn4yiQNw";
 
 const rtm = new RTMClient(botToken);
 rtm.start();
